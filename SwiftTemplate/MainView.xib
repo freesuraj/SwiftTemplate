@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewManager" customModule="SwiftTemplate" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MainView" customModule="SwiftTemplate" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Aih-it-AWw">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="n88-5A-Ipy"/>
+                        <outlet property="delegate" destination="-1" id="e4M-3W-Gxp"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Aih-it-AWw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VVL-bw-QVN"/>
+                <constraint firstAttribute="bottom" secondItem="Aih-it-AWw" secondAttribute="bottom" id="ZJa-sG-lkq"/>
+                <constraint firstItem="Aih-it-AWw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ppi-zV-kHr"/>
+                <constraint firstAttribute="trailing" secondItem="Aih-it-AWw" secondAttribute="trailing" id="ub7-VM-TxT"/>
+            </constraints>
+            <point key="canvasLocation" x="301" y="310"/>
+        </view>
+    </objects>
+</document>
