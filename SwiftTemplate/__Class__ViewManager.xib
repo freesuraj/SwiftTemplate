@@ -3,13 +3,10 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="__Class__ViewManager" customModule="SwiftTemplate" customModuleProvider="target">
             <connections>
-                <outlet property="coloredView" destination="4lB-jH-iJJ" id="6uS-xh-uZM"/>
-                <outlet property="tableView" destination="03h-KV-srr" id="q6Q-h4-IlQ"/>
                 <outlet property="view" destination="iN0-l3-epB" id="T2C-zL-GX5"/>
             </connections>
         </placeholder>
@@ -17,44 +14,7 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="03h-KV-srr">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="305" id="FYj-Oe-C9u"/>
-                    </constraints>
-                    <variation key="default">
-                        <mask key="constraints">
-                            <exclude reference="FYj-Oe-C9u"/>
-                        </mask>
-                    </variation>
-                </tableView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4lB-jH-iJJ">
-                    <rect key="frame" x="0.0" y="308" width="600" height="292"/>
-                    <color key="backgroundColor" red="0.46081000570000002" green="0.79607844350000001" blue="0.30980393290000002" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
-            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <constraints>
-                <constraint firstItem="4lB-jH-iJJ" firstAttribute="height" secondItem="03h-KV-srr" secondAttribute="height" id="4wh-sx-Vqy"/>
-                <constraint firstAttribute="bottom" secondItem="4lB-jH-iJJ" secondAttribute="bottom" id="7pM-pu-NYv"/>
-                <constraint firstItem="03h-KV-srr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8Q7-jI-IQc"/>
-                <constraint firstAttribute="bottom" secondItem="03h-KV-srr" secondAttribute="bottom" id="H9h-zg-x9r"/>
-                <constraint firstItem="4lB-jH-iJJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="M5J-Sa-QvY"/>
-                <constraint firstAttribute="trailing" secondItem="4lB-jH-iJJ" secondAttribute="trailing" id="UND-FQ-9gU"/>
-                <constraint firstAttribute="trailing" secondItem="03h-KV-srr" secondAttribute="trailing" id="VL0-hV-wjW"/>
-                <constraint firstItem="4lB-jH-iJJ" firstAttribute="top" secondItem="03h-KV-srr" secondAttribute="bottom" constant="8" id="XIm-WJ-c6D"/>
-                <constraint firstItem="03h-KV-srr" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="cGx-g0-84P"/>
-                <constraint firstItem="03h-KV-srr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cqf-Lu-Fy2"/>
-                <constraint firstItem="03h-KV-srr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="d6r-tc-bjF"/>
-            </constraints>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="H9h-zg-x9r"/>
-                    <exclude reference="4wh-sx-Vqy"/>
-                </mask>
-            </variation>
             <point key="canvasLocation" x="462" y="399"/>
         </view>
     </objects>

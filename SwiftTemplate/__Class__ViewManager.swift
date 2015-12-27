@@ -1,9 +1,6 @@
 //
-//  ViewManager.swift
-//  SwiftTemplate
-//
-//  Created by Suraj Pathak on 24/12/15.
-//  Copyright © 2015 Suraj Pathak. All rights reserved.
+//  __Class__ViewManager.swift
+//  __Class__
 //
 
 import Foundation
@@ -13,8 +10,6 @@ import UIKit
 class __Class__ViewManager: NSObject {
     
     @IBOutlet var view: UIView!
-    @IBOutlet var tableView: UITableView!
-    @IBOutlet var coloredView: UIView!
     
     weak var viewController: __Class__ViewController?
     
@@ -24,13 +19,9 @@ class __Class__ViewManager: NSObject {
     }
     
     func viewDidLoad() {
-        print("View did load \(self)")
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: kTableViewIdentifierString)
-        tableView.dataSource = viewController?.logicManager
     }
     
     func viewDidAppear(animated: Bool) {
-        self.coloredView.backgroundColor = UIColor.blueColor()
     }
     
     func viewWillDisappear(animated: Bool) {
