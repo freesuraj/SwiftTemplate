@@ -7,7 +7,10 @@
 //
 
 import Foundation
+import UIKit
 
+// The logic of the View Controller should be implemented here.
 class LogicManager {
+    var viewController: UIViewController?
     
 }
