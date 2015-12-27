@@ -1,0 +1,27 @@
+{
+  "name": "swift-template-generator",
+  "version": "0.0.1",
+  "description": "Generates swift template classes under MVVM model",
+  "main": "app.js",
+  "scripts": {
+    "test": "stg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freesuraj/SwiftTemplate"
+  },
+  "keywords": [
+    "swift",
+    "template",
+    "generator"
+  ],
+  "author": "Suraj Pathak <freesuraj@gmail.com> (http://www.freesuraj.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freesuraj/SwiftTemplate/issues"
+  },
+  "homepage": "https://github.com/freesuraj/SwiftTemplate",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
