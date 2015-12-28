@@ -18,6 +18,11 @@ class __Class__ViewManager: NSObject {
         NSBundle.mainBundle().loadNibNamed("__Class__ViewManager", owner: self, options: nil)
     }
 
+    convenience init(parentViewController: __Class__ViewController) {
+        self.init()
+        self.viewController = parentViewController
+    }
+
     func viewDidLoad() {
     }
 
