@@ -6,10 +6,10 @@
 import UIKit
 
 class __Class__ViewController: UIViewController {
-    
-    let viewManager: __Class__ViewManager = __Class__ViewManager()
+
+    lazy var viewManager: __Class__ViewManager = __Class__ViewManager(parentViewController: self)
     lazy var logicManager: __Class__LogicManager = {return __Class__LogicManager()}()
-    
+
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
     }
@@ -17,15 +17,14 @@ class __Class__ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view = viewManager.view
-        viewManager.viewController = self
         viewManager.viewDidLoad()
     }
-    
+
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         viewManager.viewDidAppear(animated)
     }
-    
+
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         viewManager.viewWillDisappear(animated)
@@ -36,4 +35,3 @@ class __Class__ViewController: UIViewController {
     }
 
 }
-
