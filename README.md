@@ -1,12 +1,13 @@
-## Swift MVVP Template
+## Swift MVVM Template
 
-A Xcode Template for Generating minimum required files to create a module with MVVM model in Swift.
-When the template is installed, it will create a View Controller, View Manager, Logic Manager, View Nib hooked up with View Manager and View Model to follow the standard Model-View-ViewModel ([MVVM][href]) design pattern.
+Swift MVVM is an Xcode File Template for Generating minimum required files to create a module with MVVM model in Swift.
+When the template is installed, it will create a View Controller, View Manager, Logic Manager, View Nib hooked up with View Manager and View Model to follow the standard [Model-View-ViewModel][href1] ([MVVM in Swift][href]) design pattern.
+[href1]: https://en.wikipedia.org/wiki/Model–view–viewmodel
 [href]: http://artsy.github.io/blog/2015/09/24/mvvm-in-swift/
 ### Install
-If you are using If you are using [Alcatraz][href], you should be able to download it from there.
+If you are using [Alcatraz][href2], you should be able to download it from there.
 
-[href]: https://github.com/supermarin/Alcatraz
+[href2]: https://github.com/supermarin/Alcatraz
 
 If you aren't using Alcatraz, just type the commands below in terminal.
 
