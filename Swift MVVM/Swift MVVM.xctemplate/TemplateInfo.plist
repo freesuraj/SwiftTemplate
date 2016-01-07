@@ -16,10 +16,10 @@
 	<array>
 		<string>___FILEBASENAME___DomainObject.swift</string>
 		<string>___FILEBASENAME___LogicManager.swift</string>
-		<string>__FILEBASENAME___ViewController.swift</string>
-		<string>__FILEBASENAME___ViewManager.swift</string>
-		<string>__FILEBASENAME___ViewManager.xib</string>
-		<string>__FILEBASENAME___ViewModel.swift</string>
+		<string>___FILEBASENAME___ViewController.swift</string>
+		<string>___FILEBASENAME___ViewManager.swift</string>
+		<string>___FILEBASENAME___ViewManager.xib</string>
+		<string>___FILEBASENAME___ViewModel.swift</string>
 	</array>
 	<key>Options</key>
 	<array>
