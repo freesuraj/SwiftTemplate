@@ -11,7 +11,7 @@ If you are using If you are using [Alcatraz][href], you should be able to downlo
 If you aren't using Alcatraz, just type the commands below in terminal.
 
     $ git clone https://github.com/freesuraj/SwiftTemplate.git
-    $ cd SwiftMVVM
+    $ cd Swift MVVM
     $ ./install-templates.sh
 
 * Using Node.js
