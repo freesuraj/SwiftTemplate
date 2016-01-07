@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>MVVM Swift</string>
+	<key>Description</key>
+	<string>Generates a View Controller, View Manager, View Nib, Logic Manager and View Model all hooked up to follow the MVVM model</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFiles</key>
+	<array>
+		<string>___FILEBASENAME___DomainObject.swift</string>
+		<string>___FILEBASENAME___LogicManager.swift</string>
+		<string>__FILEBASENAME___ViewController.swift</string>
+		<string>__FILEBASENAME___ViewManager.swift</string>
+		<string>__FILEBASENAME___ViewManager.xib</string>
+		<string>__FILEBASENAME___ViewModel.swift</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Module Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>Swift</string>
+			<key>Description</key>
+			<string>The language of template</string>
+			<key>Identifier</key>
+			<string>templateLanguage</string>
+			<key>Name</key>
+			<string>Language:</string>
+			<key>Required</key>
+			<false/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Summary</key>
+	<string>Templates for Swift using MVVM Model</string>
+</dict>
+</plist>

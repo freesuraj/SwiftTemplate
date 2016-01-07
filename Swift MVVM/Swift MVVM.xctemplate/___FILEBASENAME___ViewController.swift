@@ -1,14 +1,17 @@
 //
-//  __Class__ViewController.swift
-//  __Class__
+//  ___FILENAME___
+//  ___PROJECTNAME___
+//
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//___COPYRIGHT___
 //
 
 import UIKit
 
-class __Class__ViewController: UIViewController {
+class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
-    lazy var viewManager: __Class__ViewManager = __Class__ViewManager(parentViewController: self)
-    lazy var logicManager: __Class__LogicManager = {return __Class__LogicManager()}()
+    lazy var viewManager: ___FILEBASENAMEASIDENTIFIER___ViewManager = ___FILEBASENAMEASIDENTIFIER___ViewManager(parentViewController: self)
+    lazy var logicManager: ___FILEBASENAMEASIDENTIFIER___LogicManager = {return ___FILEBASENAMEASIDENTIFIER___LogicManager()}()
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
