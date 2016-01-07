@@ -14,6 +14,10 @@ If you aren't using Alcatraz, just type the commands below in terminal.
     $ cd Swift MVVM
     $ ./install-templates.sh
 
+If you got a permission denied error while executing the script file, give it an execution permission.
+
+    $ sudo chmod 755 install-templates.sh
+
 * Using Node.js
 
 Alternatively, if you want to create the templates without relying on Xcode, you can do so by using following commands
@@ -24,7 +28,11 @@ Alternatively, if you want to create the templates without relying on Xcode, you
     $ node app.js -c ModuleName -d Directory/To/Save
 
 ### Uninstall
-      $ ./uninstall-templates.sh
+    $ ./uninstall-templates.sh
+
+If you got a permission denied error while executing the script file, give it an execution permission.
+
+    $ sudo chmod 755 uninstall-templates.sh
 
 ### Usage
 * After you've installed the template in Xcode, restart the Xcode. In your Xcode project, when you create a new file, you can select **Swift MVVM** as follows.
