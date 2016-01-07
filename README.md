@@ -28,4 +28,4 @@ Alternatively, if you want to create the templates without relying on Xcode, you
 
 ### Usage
 * After you've installed the template in Xcode, restart the Xcode. In your Xcode project, when you create a new file, you can select **Swift MVVM** as follows.
-![ScreenShot](https://image.png)
+![ScreenShot](https://raw.githubusercontent.com/freesuraj/SwiftTemplate/master/Screenshot.png)
