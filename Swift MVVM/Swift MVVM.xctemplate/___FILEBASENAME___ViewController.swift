@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     lazy var viewManager: ___FILEBASENAMEASIDENTIFIER___ViewManager = ___FILEBASENAMEASIDENTIFIER___ViewManager(parentViewController: self)
     lazy var logicManager: ___FILEBASENAMEASIDENTIFIER___LogicManager = {return ___FILEBASENAMEASIDENTIFIER___LogicManager()}()
 
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
 
@@ -23,12 +23,12 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
         viewManager.viewDidLoad()
     }
 
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         viewManager.viewDidAppear(animated)
     }
 
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         viewManager.viewWillDisappear(animated)
     }
