@@ -18,7 +18,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewManager: NSObject {
 
     override init() {
         super.init()
-        NSBundle.mainBundle().loadNibNamed("___FILEBASENAMEASIDENTIFIER___ViewManager", owner: self, options: nil)
+        Bundle.main.loadNibNamed("___FILEBASENAMEASIDENTIFIER___ViewManager", owner: self, options: nil)
     }
 
     convenience init(parentViewController: ___FILEBASENAMEASIDENTIFIER___ViewController) {
